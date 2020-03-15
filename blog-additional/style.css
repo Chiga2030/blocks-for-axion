@@ -1,0 +1,70 @@
+	/* block - blog-additional, for 1170px */
+
+.blog-additional {
+	max-width: 1030px;
+	margin: auto;
+}
+
+.blog-additional__title {
+	letter-spacing: 0.001em;
+	transform: translateY(-4px);
+}
+
+.blog-additional__storyes-wrapper {
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(17px);
+}
+
+.blog-additional__item {
+	height: 349px;
+	width: 307px;
+}
+
+.blog-additional__image {
+	background-size: cover;
+	height: 148px;
+	width: 307px;
+}
+
+.blog-additional__image_post-68 {
+	background: url(img/blog/post-68/preview.png) no-repeat;
+}
+
+.blog-additional__image_post-69 {
+	background: url(img/blog/post-69/preview.png) no-repeat;
+}
+
+.blog-additional__image_post-67 {
+	background: url(img/blog/post-67/preview.png) no-repeat;
+
+}
+
+.blog-additional__item-title {
+	font-size: 1.9em;
+	letter-spacing: -.06em;
+	transform: translateY(8px);
+}
+
+.blog-additional__lead {
+	font-size: 1.35em;
+	letter-spacing: 0.006em;
+	line-height: 1.3em;
+	transform: translateY(-4px);
+}
+
+.blog-additional__bottom-wrapper {
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-4px);
+}
+
+.blog-additional__link {
+	font-size: 1.25em;
+	letter-spacing: -.05em;
+}
+
+.blog-additional__date {
+	font-size: 1.25em;
+	letter-spacing: .02em;
+}
