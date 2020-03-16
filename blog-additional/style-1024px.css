@@ -2,4 +2,30 @@
 
 	/* block - blog-additional, for 1024px */
 
+	.blog-additional {
+		max-width: 980px;
+	}
+
+	.blog-additional__item {
+		width: 277px;
+	}
+
+	.blog-additional__image {
+		width: 277px;
+	}
+
+	.blog-additional__lead {
+		font-size: 1.3em;
+		letter-spacing: -.01em;
+		line-height: 1.25em;
+	}
+
+	.blog-additional__bottom-wrapper {
+		transform: translateY(3px);
+	}
+
+	.link__decorate-arrow::after {
+		left: calc(100% + -4px);
+	}
+
 }

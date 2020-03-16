@@ -1,5 +1,65 @@
 @media (max-width: 768px) {
 
 	/* block - blog-additional, for 768px */
+	
+	.blog-additional {
+		max-width: 740px;
+	}
+
+	.blog-additional__title {
+		font-size: 3em;
+		letter-spacing: -.013em;
+		transform: translateY(0);
+	}
+
+	.blog-additional__item {
+		height: auto;
+		width: 314px;
+	}
+
+	.blog-additional__item:nth-child(3) {
+		display: none;
+	}
+
+	.blog-additional__image {
+		background-position: center ;
+		background-size: cover;
+		height: 166px;
+		transform: translateY(-3px);
+		width: 314px;
+	}
+
+	.blog-additional__item-title {
+		font-size: 2.5em;
+		letter-spacing: -.025em;
+		transform: translateY(-1px);
+	}
+
+	.blog-additional__lead {
+		font-size: 2em;
+		letter-spacing: -.012em;
+		transform: translateY(-23px);
+	}
+
+	.blog-additional__bottom-wrapper {
+		transform: translateY(-10px);
+	}
+
+	.blog-additional__link {
+		font-size: 2.1em;
+	}
+
+	.blog-additional__date {
+		font-size: 1.5em;
+		letter-spacing: 0.03em;
+		transform: translate(-1px, 4px);
+	}
+
+	.link__decorate-arrow::after {
+		background-size: cover;
+		left: calc(100% + 11px);
+		top: 8px;
+	  width: 52px;
+	}
 
 }
