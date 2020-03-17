@@ -2,5 +2,71 @@
 	
 	/* block - gallery, for 768px */
 
+	
+	.gallery {
+		background: #000;
+		height: 166px;
+		position: relative;
+	}
+
+	.gallery::after {
+		background: #000;
+		content: '';
+		height: 40px;
+		left: 0;
+		position: absolute;
+		bottom: 0;
+    transform: translateY(calc(100% - 39px)) skewY(2.6deg);
+		transform-origin: left bottom;
+		width: 100vw;
+		z-index: -1;
+	}
+
+	.gallery__social-tag {
+		color: #fff;
+		font-size: 3em;
+		letter-spacing: -.01em;
+		max-width: calc(181px * 4);
+	}
+
+	.gallery__wrap-items {
+		grid-template-columns: repeat(4, auto);
+		max-width: calc(170px * 4);
+		margin: auto;
+		transform: translateY(17px);
+	}
+
+	.gallery__image_photo8 {
+		display: block;
+	}
+
+	.gallery__image {
+		height: 170px;
+	}
+
+}
+
+@media (max-width: 680px) {
+
+	.gallery {
+		height: 256px;
+	}
+
+	.gallery__wrap-items {
+		grid-template-columns: repeat(2, auto);
+		max-width: calc(140px * 2);
+	}
+
+	.gallery__image {
+		height: 140px;
+	}
+
+	.gallery__image_photo7 {
+		display: none;
+	}
+
+	.gallery__image_photo8 {
+		display: none;
+	}
 
 }

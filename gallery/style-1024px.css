@@ -1,7 +1,14 @@
-/*@media (max-width: 1024px) {
+@media (max-width: 1024px) {
 
-	 block - gallery, for 1024px 
+	 /*block - gallery, for 1024px */
 
+	.gallery {
+		max-width: calc(133px *7);
+	}
+
+	.gallery__image {
+		height: 133px;
+	}
 
 }
-*/
+
