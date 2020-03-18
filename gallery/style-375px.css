@@ -2,5 +2,30 @@
 
 	/* block - gallery, for 375px */
 
+	.gallery {
+		height: 269px;
+	}
+
+	.gallery__social-tag {
+		font-size: 2.3em;
+		letter-spacing: .045em;
+		max-width: calc(160px * 2);
+	}
+
+	.gallery__image_photo3 {
+		background: url(img/gallery/social-net/6.jpg);
+	}
+
+	.gallery__image_photo4 {
+		background: url(img/gallery/social-net/7.jpg);
+	}
+
+	.gallery__image_photo6 {
+		background: url(img/gallery/social-net/3.jpg);
+	}
+
+	.gallery__image {
+		background-size: cover;
+	}
 
 }

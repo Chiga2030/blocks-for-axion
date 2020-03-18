@@ -27,6 +27,7 @@
 		font-size: 3em;
 		letter-spacing: -.01em;
 		max-width: calc(181px * 4);
+		padding-right: 16px;
 	}
 
 	.gallery__wrap-items {
