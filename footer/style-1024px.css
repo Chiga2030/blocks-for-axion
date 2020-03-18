@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+
+	 /*block - footer, for 1024px */
+
+	.web-hero-school {
+		bottom: 16px;
+		right: 37px;
+	}
+
+}
+
+@media (max-width: 816px) {
+
+	 /*block - footer, for 816px */
+
+	.social {
+		width: 148px;
+	}
+
+}
