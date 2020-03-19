@@ -99,12 +99,13 @@
 		/* block - footer, for 620px */
 
 	.footer {
-		height: 927px;
-		max-width: 375px;
+		height: 898px;
 		margin: auto;
 	}
 
 	.footer__column-wrapper {
+		margin: auto;
+		max-width: 375px;
 		transform: translate(0, 17px);
 	}
 
@@ -148,51 +149,42 @@
 		transform: translateY(-7px);
 	}
 
-
-
-
-
-/*TODO: продолжить с .social__item*/
-
 	.social__item { 
-		/*display: inline-block;*/
-		letter-spacing: .1em;
-		transform: translateY(-4px);
+		letter-spacing: 0.2em;
+    transform: translateY(2px);
 	} 
 
 	.social__button {
-		background: #000;
-		border: 2px solid #fff;
-		box-sizing: border-box;
-		color: #fff;
-		display: inline-block;
-		font-weight: bold;
-		height: 30px;
-		letter-spacing: -.05em;
-		transform: translateY(7px);
-		width: 136px;
+    height: 37px;
+    letter-spacing: .05em;
+    transform: translateY(23px);
+    width: 150px;
 	}
 
 	.social__networks {
-		align-items: flex-end;
-		display: inline-flex;
-		height: 67px;
-		justify-content: space-between;
-		width: 137px;
+		height: 149px;
+		width: 164px;
 	}
 
-	.social__networks-item {
-		background-position: center;
-		background-size: cover;
-		height: 34px;
+	.social__networks-item:nth-child(1) {
+		width: 10px;
+	}
+
+	.social__networks-item:nth-child(2) {
+		width: 22px;
+	}
+
+	.social__networks-item:nth-child(3) {
+		width: 22px;
+	}
+
+	.social__networks-item:nth-child(4) {
+		width: 22px;
 	}
 
 	.address {
-		align-items: flex-end;
-		display: flex;
-		font-style: normal;
-		justify-content: center;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.135em;
+		transform: translateY(55px);
 	}
 
 }
