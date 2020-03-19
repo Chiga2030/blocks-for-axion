@@ -2,5 +2,25 @@
 
 	 /*block - banner, for 1024px */
 
+	.banner {
+		height: 253px
+		margin: auto;
+		max-width: 930px;
+	}
+	
+	.banner__title {
+		left: 54px;
+		top: 53px;
+	}
+
+	.banner__link {
+		left: 54px;
+		top: 171px;
+	}
+
+	.link__decorate-arrow::after {
+		transform: translateX(4px);
+		width: 48px;
+	}
 
 }

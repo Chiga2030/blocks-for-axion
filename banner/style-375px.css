@@ -2,5 +2,29 @@
 
 	/* block - banner, for 375px */
 
-	
+	.banner {
+		background-position: calc(0% - 61px);
+		height: 191px;
+	}
+
+	.banner__title {
+		font-size: 1.9em;
+		left: 48px;
+		top: 50px;
+	}
+
+	.banner__link {
+		font-size: 1em;
+		left: 49px;
+		letter-spacing: .1em;
+		top: 141px;
+	}
+
+	.link__decorate-arrow::after {
+		height: 7px;
+		top: 3px;
+		transform: translateX(-3px);
+		width: 48px;
+	}
+
 }

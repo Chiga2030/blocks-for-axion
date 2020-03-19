@@ -2,5 +2,31 @@
 	
 	/* block - banner, for 768px */
 
+	.banner {
+		background-position: calc(0% - 124px);
+		height: 414px;
+		max-width: unset;
+	}
+	
+	.banner__title {
+		font-size: 4.6em;
+		left: 45px;
+		letter-spacing: .04em;
+		top: 81px;
+	}
+
+	.banner__link {
+		font-size: 1.8em;
+		left: 45px;
+		letter-spacing: .04em;
+		top: 309px;
+	}
+
+	.link__decorate-arrow::after {
+		height: 13px;
+		top: 5px;
+		transform: translateX(1px);
+		width: 75px;
+	}
 
 }

@@ -2,4 +2,16 @@
 
 		/* block - banner, for 320px */
 
+	.banner {
+		background-position: calc(0% - 89px);
+	}
+
+	.banner__title {
+		left: 20px;
+	}
+
+	.banner__link {
+		left: 21px;
+	}
+
 }
