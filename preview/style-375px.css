@@ -1,0 +1,82 @@
+@media (max-width: 375px) {
+
+	/* block - preview, for 375px */
+
+	.preview {
+		height: 315px;
+		max-width: 375px;
+	}
+
+	.preview::after {
+		border-top: 17px solid #fff;
+		bottom: -17px;
+	}
+
+	.preview__title {
+	  font-size: 1.5em;
+	  margin-bottom: 0;
+	  transform: translateX(-5px);
+	}
+
+	.preview__wrap-items {
+	  max-width: 375px;
+	}
+
+	.preview__item {
+	  box-sizing: border-box;
+	  height: 267px;
+	  width: 281px;
+	}
+
+	.preview__image {
+	  height: 171px;
+	  transform: translateX(3px);
+	  width: 163px;
+	}
+
+	.preview__item:nth-child(2),
+	.preview__item:nth-child(3),
+	.preview__item:nth-child(4) {
+		display: none;
+	}
+
+	.preview__breadcrumbs {
+	  font-size: 	1.2em;
+	  left: 1em;
+	  letter-spacing: .001em;
+		transform: translateY(-18px);
+	  width: 260px;
+	}
+
+	.preview__price {
+	  bottom: 2.20em;
+	  font-size: 1.61em;
+	  left: .7em;
+	}
+
+	.preview__wrap-colors {
+	  bottom: 47px;
+	  justify-content: space-between;
+	  right: 0;
+	  width: 74px;
+	}
+
+	.preview__item-circle {
+	  height: 15px;
+	  width: 15px;
+	}
+
+	.preview__item-circle_silver {
+		order: 1;
+	}
+	
+	.preview__item-circle_goldenrod {
+		order: 1;
+	}
+
+	.preview__item-circle_big {
+	  height: 15px;
+	  width: 15px;
+	}
+
+}

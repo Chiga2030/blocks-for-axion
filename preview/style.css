@@ -1,0 +1,140 @@
+	/* block - preview, for 1170px */
+
+.preview {
+	margin-bottom: 27px;
+}
+
+.preview__title {
+  margin-bottom: 14px;
+}
+
+.preview__wrap-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1060px;
+}
+
+.preview__item {
+  box-sizing: border-box;
+  height: 261px;
+  position: relative;
+  width: 231px;
+}
+
+.preview__image {
+  height: 173px;
+  margin: 0 auto 14px;
+  width: 188px;
+}
+
+.preview__item:nth-child(2) {
+	transform: translateX(2px);
+}
+
+.preview__item:nth-child(3) {
+	transform: translateX(3px);
+}
+
+.preview__item:nth-child(4) {
+	transform: translateX(5px);
+}
+
+.preview__item::after {
+  background: #00000033;
+  content: '';
+  height: 100px;
+  position: absolute;
+  right: -1.4em;
+  top: 41px;
+  width: 1px;
+}
+
+.preview__item:last-child::after {
+  content: none;
+}
+
+.preview__image_rasta {
+  background: url(./img/products/rasta-axion.png) no-repeat;
+}
+
+.preview__image_pepper {
+  background: url(./img/products/pepper-axion.png) no-repeat;
+}
+
+.preview__image_rust {
+  background: url(./img/products/rust-axion.png) no-repeat;
+}
+
+.preview__image_blue {
+  background: url(./img/products/electric-blue-axion.png) no-repeat;
+}
+
+.preview__breadcrumbs {
+  font-size: 	1em;
+  height: 24px;
+  left: .9em;
+  letter-spacing: -.02em;
+  position: absolute;
+  width: 206px;
+}
+
+.preview__price {
+  bottom: 1.7em;
+  font-size: 1.1em;
+  font-weight: bold;
+  left: .8em;
+  position: absolute;
+}
+
+.preview__wrap-colors {
+  align-items: center;
+  bottom: 24px;
+  display: flex;
+  height: 18px;
+  justify-content: space-between;
+  position: absolute;
+  right: 15px;
+  width: 56px;
+}
+
+.preview__item-circle {
+  border-radius: 50px;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+}
+
+.preview__item-circle_big {
+  height: 9px;
+  width: 9px;
+}
+
+.preview__item-circle_silver {
+	background: #C4C4C4;
+}
+
+.preview__item-circle_black {
+	background: #0E1211;
+}
+
+.preview__item-circle_brown {
+	background: #B62E3C;
+}
+
+.preview__item-circle_goldenrod {
+	background: #FDB431;
+}
+
+.preview__item-circle_darksalmon {
+	background: #e29d69;
+}
+
+.preview__item-circle_darkslateblue {
+	background: #41479b;
+}
+
+.preview__item-circle_steelblue {
+	background: #327da9;
+}

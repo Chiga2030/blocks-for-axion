@@ -1,0 +1,11 @@
+@media (max-width: 320px) {
+
+		/* block - preview, for 320px */
+	
+	.preview::after {
+		border-left: 100vw solid transparent;
+		border-top: 16px solid #fff;
+		bottom: -16px;
+	}
+
+}
