@@ -1,18 +1,15 @@
 	/* block - header, for 1170px */
 
 .header {
-	display: flex;
 	align-items: center;
+	display: flex;
 	height: 116px;
-	max-width: 1030px;
-	background: yellow;
-	margin: auto;
 	justify-content: space-between;
-	/*background: red;*/
+	margin: auto;
+	max-width: 1030px;
 }
 
 .header__logo {
-	/*margin-right: 40px;*/
 	transform: translateY(2px);
 }
 
@@ -23,78 +20,61 @@
 }
 
 .header__nav {
-	/*margin-right: 150px*/
-}
-
-.nav {
-	background: red;
 	display: flex;
-	/*flex-direction: row;*/
-	justify-content: space-between;
 	flex-basis: 335px;
-						transform: translate(-45px, -1px);
-	/*background: blue;*/
-	/*flex-basis: 440px;*/
+	justify-content: space-between;
+	transform: translateX(-45px);
 }
 
 .nav__item,
 .header__profile {
-	/*background-color: blue;*/
 	font-size: 1.2em;
-	/*flex-basis: auto;*/
 }
 
 .nav__item_burger-link {
 	display: none;
 }
 
-.nav__item_burger-menu {
-}
-
-.burger-menu {
-}
-
-.burger-menu__top {
-}
-
-.burger-menu__bottom {
-}
-
 .header__search {
-	background: red;
-	flex-basis: 178px;
-	transform: translate(54px, 2px);
+	transform: translate(54px, 3px);
 }
 
-.search {}
-.search_input {}
+.search {
+	border-bottom: 1px solid #000;
+	height: 20px;
+}
+
+.search_input {
+	background: url(img/search.svg)  right / contain no-repeat;
+	border: none;
+	outline: none;
+	padding: 0 8px;
+	width: 162px;
+}
+
 .header__profile {
 	display: flex;
-	justify-content: space-between;
 	flex-basis: 191px;
-	background: red;
-	/*transform: translateY(0px);*/
+	justify-content: space-between;
+	transform: translateY(1px);
 }
-.profile {}
-.profile__item {}
 
 .profile__item_in-cart {
+	background: #000;
 	border-radius: 50px;
 	color: #fff;
-	padding: 1px;
-	/*font-size: .8em;*/
-	font-weight: 100;
-	text-align: center;
 	display: inline-block;
-	width: 14px;
+	font-size: .9em;
+	font-weight: bold;
 	height: 14px;
-	background: blue;
+	padding: 1px;
+	text-align: center;
 	transform: translateX(2px);
+	width: 14px;
 }
 
 .profile__item_language {
-	background: url(img/language/en.svg);
-	width: 20px;
+	background: url(img/language/en.svg) no-repeat;
 	transform: translateY(-2px);
-	/*height: 19px;*/
+	width: 20px;
 }

@@ -2,6 +2,39 @@
 
 	/* block - header, for 375px */
 
+	.header {
+		max-width: 280px;
+	}
 
+	
+	.header__logo {
+		transform: translateY(-23px);
+	}
 
+	.logo {
+		background: url(img/logo-375.png) center / cover no-repeat;
+		height: 22px;
+		width: 104px;
+	}
+
+	.nav__item_burger-link {
+		transform: translateY(-21px);
+	}
+
+	.nav__item_burger-menu {
+		height: 18px;
+		width: 41px;
+	}
+
+	.burger-menu__top {
+		height: 5px;
+		width: 41px;
+	}
+
+	.burger-menu__bottom {
+		bottom: 2px;
+		height: 6px;
+		width: 41px;
+	}
+	
 }

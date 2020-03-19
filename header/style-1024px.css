@@ -2,6 +2,52 @@
 
 	 /*block - header, for 1024px */
 
-	
+	.header {
+		max-width: 930px;
+	}
+
+	.logo {
+		background: url(img/logo-1024.png) center / cover no-repeat;
+		width: 62px;
+	}
+
+	.header__nav {
+		flex-basis: 333px;
+		transform: translateX(-39px);
+	}
+
+	.header__search {
+		transform: translate(35px, 4px);
+	}
+
+	.search_input {
+		width: 144px;
+	}
+
+	.header__profile {
+		flex-basis: 173px;
+	}
+
+	.profile__item_in-cart {
+		transform: translateX(3px);
+		width: 14px;
+	}
+
+	.profile__item_language {
+		width: 18px;
+	}
+
+}
+
+@media (max-width: 888px) {
+
+	.header__nav {
+		transform: translateX(-16px);
+		flex-basis: 288px;
+	}
+
+		.header__search {
+		transform: translateX(-16px);
+	}
 
 }

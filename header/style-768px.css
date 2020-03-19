@@ -1,6 +1,59 @@
 @media (max-width: 768px) {
 	
 	/* block - header, for 768px */
-	
+
+	.header {
+		max-width: 680px;
+	}
+
+	.header__logo {
+		transform: translate(0, -3px);
+	}
+
+	.logo {
+		background: url(img/logo-768.png) center / cover no-repeat;
+		height: 35px;
+		width: 156px;
+	}
+
+	.header__nav {
+		flex-basis: auto;
+		transform: translate(0, 0);
+	}
+
+	.nav__item_burger-link {
+		display: inline-flex;
+		transform: translateY(-2px);
+	}
+
+	.nav__item_burger-menu {
+		height: 26px;
+		width: 61px;
+	}
+
+	.burger-menu__top {
+		background: #000;
+		height: 9px;
+		position: absolute;
+		width: 61px;
+	}
+
+	.burger-menu__bottom {
+		background: #000;
+		bottom: 0;
+		height: 9px;
+		position: absolute;
+		width: 61px;
+	}
+
+	.nav__item,
+	.header__search,
+	.search,
+	.search_input,
+	.header__profile,
+	.profile__item_in-cart,
+	.profile__item_language {
+		display: none;
+	}
 
 }
